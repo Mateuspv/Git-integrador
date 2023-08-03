@@ -21,3 +21,13 @@ Repositório utilizado na matéria de projeto integrador da faculdade
 >.git/packed-refs: É um arquivo que armazena referências (ponteiros para commits ou objetos) em um formato compactado. É usado para otimizar o acesso a referências em repositórios grandes.
 
 >.git/refs/: É um diretório que contém referências do repositório, como ramificações, tags e HEAD. Cada referência é armazenada em um arquivo separado dentro deste diretório.
+
+>O comando git log é usado para exibir o histórico de commits em um repositório Git.
+Ele mostra uma lista dos commits em ordem cronológica reversa (do mais recente ao mais antigo).
+Cada entrada do log geralmente inclui informações sobre o autor do commit, a data e hora do commit, o hash do commit, e a mensagem do commit.
+O log pode ser paginado, e você pode percorrer o histórico usando as setas do teclado ou outras opções para filtrar ou limitar a saída.
+
+>O comando git show é usado para exibir informações detalhadas sobre um commit específico.
+Ele mostra informações do commit, como o autor, a data e hora, e a mensagem do commit.
+Além disso, exibe as diferenças (diff) entre o commit selecionado e o seu antecessor, mostrando as alterações realizadas nos arquivos.
+O git show também exibe informações sobre alterações de metadados, como alterações de permissão e modo do arquivo.
